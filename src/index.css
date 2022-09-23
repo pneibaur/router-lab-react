@@ -14,7 +14,7 @@ code {
 
 nav {
   padding: 1em;
-  background-color: #6632cb;
+  background-color: hsl(241, 60%, 50%);
 }
 .navbar {
   display: flex;
@@ -34,4 +34,23 @@ li {
 .stockInfo {
   font-size: 10px;
   text-align: left;
+}
+.about {
+  padding: 2em;
+}
+.aboutInfo {
+  text-align: left;
+  padding-top: 1em;
+}
+button {
+  padding: 0em 2em;
+  background-color: rgb(81, 81, 200);
+  color: white;
+  border: none;
+  border-radius: 1em;
+  transition-duration: .3s;
+}
+button:hover {
+  background-color: blueviolet;
+  box-shadow: 0 8px 8px 0 #00000074;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import stocks from "../data/data";
+import { Link } from "react-router-dom";
 
 
 const Stocks = (props) => {
@@ -15,6 +16,9 @@ const Stocks = (props) => {
                 <li><strong>LAST PRICE: </strong><span>{foundStock.lastPrice}</span></li>
                 <li><strong>HIGH: </strong><span>{foundStock.high}</span> | <strong>LOW: </strong><span>{foundStock.low} </span></li>
             </ul>
+            <Link to="/stocks">
+                <button><h2>Go to your dashboard</h2></button>
+            </Link>
         </div>
     )
 }
