@@ -21,7 +21,10 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+}
+.navbar a {
   color: white;
+  text-decoration: none;
 }
 li {
   padding-right: 2em;
