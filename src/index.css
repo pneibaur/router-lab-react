@@ -17,7 +17,6 @@ nav {
   background-color: #6632cb;
 }
 .navbar {
-  list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -27,7 +26,12 @@ nav {
   text-decoration: none;
 }
 li {
+  list-style-type: none;
   padding-right: 2em;
   font-size: 2em;
   font-family: Helvetica;
+}
+.stockInfo {
+  font-size: 10px;
+  text-align: left;
 }
